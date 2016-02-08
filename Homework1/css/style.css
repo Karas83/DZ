@@ -1,12 +1,15 @@
+
+html{background: black;
+	padding: 0% 0% 0% 0%;
+	}
 body{
 	width: 37%;
 	font-family: serif; 
 	background: #eeeeee;
-	margin: 0.2% 32% 0% 31%;	
-}
-html{
-	border-bottom: 3px solid black;
-	padding: 0% 0% 2% 0%;
+	margin: 0 0 0 0;	
+	padding : 0.2% 32% 2.2% 31%;
+	border-bottom: 1px solid black;
+	border-radius: 0 0 5px 5px;
 	}
 h1{
 	font-size: 100%;
