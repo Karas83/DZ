@@ -20,6 +20,7 @@ body{
 .rightheader{
 	float: right;
 	width: 39%;
+	margin-bottom: 0.5%;
 	}
 .contact{
 	color: #5fa5bb;
@@ -40,13 +41,14 @@ h1{
 .ulcountries{
 	text-align: center;
 	font-size: 80%;
-	margin: 8% 0 0 11%;
+	margin: 8% 0 0 0;
 	}
 .ulcountries li p a{
 	font-weight: bold;
 	color: #5fa5bb;
 	}
 .countries{
+	width: 12%;
 	float: left; 
 	margin: 0 4% 0 0;
 	}
@@ -57,7 +59,7 @@ p{
 	}
 .mainimg {
 	width: 100%;
-	margin: 0;
+	margin: -0.5% 0 0 0;
 	border-top: 1px solid #128aa7;
 	border-bottom: 1px solid #128aa7;
 	}
@@ -65,6 +67,7 @@ p{
 	width:100%;
 	background-image: url(../img/backformenu.jpg);
 	box-shadow: 0px 0px 12px 0px rgba(50, 50, 50, 0.75);
+	margin-top: -0.2%;
 	}
 .clearfix:after {
 	content: "";
@@ -73,19 +76,28 @@ p{
 	}
 .mainli {
 	font-size: 90%;
-	padding: 0.5% 0% 1% 7%;
+	padding: 0.5% 6% 1% 0%;
 	float: left;
 	position: relative;
 	}	
+.first{
+	margin:0 0 0 6%;
+	}
 .mainli ul {
 	display: none;
+	top: 30px;
+	right: 10px;
 	position: absolute;
 	}
 .mainli:hover ul {
 	position: absolute;
 	top: 30px;
-	left: 68px;
+	right: 10px;
 	display: block;
+	}
+.str{ 
+	margin: 0 0 0 0%;
+	
 	}
 .main_a {
 	color: #ffffff;
@@ -114,7 +126,6 @@ p{
 	width: 22%;
 	background: #edeef0;
 	}
-	}
 .rightbar ul li{
 	text-align: center;
 	}
@@ -122,16 +133,13 @@ p{
 	font-size: 100%;
 	padding: 4% 0 0 0;
 	}
-
-.leftbar ul li{
-	text-align: center;
-	}
 .liforbar {
 	border-bottom: 1px solid #c7cacf;
 	}
 .li1{
 	border-right: 1px solid #c7cacf;
 	border-left: 1px solid #c7cacf;
+	text-align: center;
 	}
 .last{
 	padding: 4% 0 4% 0;
