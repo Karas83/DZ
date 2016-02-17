@@ -1,0 +1,204 @@
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: block;
+	}
+body{
+	color:#cccccc;
+	width: 100%;
+	font-family:Helvetica Neue, sans-serif; 
+	background-image: url(../img/backmain.jpg);
+	background-size: 100%;
+	}
+header{
+	background-image: url(../img/backformenu.jpg);
+	}
+.topmenu{
+	float:right;
+	padding: 0 0 0 1%;
+	}
+.topmenu li{
+	float:left;
+	padding:1% 1.2% 1.2% 1.2%;
+	border: 1px solid transparent;
+	}
+.flag{
+	float:left;
+	padding:0 0 3% 0;
+	}
+.topli{
+	color: white;
+	text-decoration: none;
+	}
+.topli1{
+	color: #60b5ed;
+	text-decoration: none;
+	}
+
+.hover1:hover .topli1{
+	color:white;
+	}
+.hover1:hover {
+	background-color:#4eabda;
+	}
+.hover{
+	color:white;
+	border: 1px solid transparent;
+	}
+.hover:hover {
+	background-image: url(../img/formenu.jpg);
+	background-repeat: repeat;
+	border: 1px solid #4a9cd6;
+	}
+.topli2{
+	text-decoration:underline;
+	}
+#li{
+	margin:0.4% 0 0.2% 0;
+	padding:0.2% 1% 0.2% 2%;
+	border-left: 1px solid #4a9cd6;
+	}
+#li2{
+	color: white;
+	padding:1% 2% 1.2% 0;
+	}
+.main{
+	width:46%;
+	margin:15% 27% 18% 27%;
+	}
+.Cadastre-se{
+	color:white;
+	text-align:center;
+	font-size:150%;
+	padding:3% 5% 3% 4%;
+	margin: 0 0 0.3% 0;
+	background-color: rgba(0,0,0,0.5);
+	}
+.form{
+	background-color: rgba(0,0,0,0.5);
+	}
+.face{
+	text-align:center;
+	padding: 3% 0% 1% 0%;
+	}
+.ou{
+	color:#999999;
+	text-align:center;
+	padding: 2% 0 1% 0;
+	}
+.ou1{
+	display:inline;
+	width:20%;
+	}
+.line{
+	padding: 0 0 1% 0;
+	}
+form{
+	text-align:center;
+	}
+input{
+	font-size: 110%;
+	width: 44%;
+	color:white;
+	margin:4% 28% 1% 27%;
+	}
+#first_name{
+	color:white;
+	display:block;
+	background-color:black;
+	border: none;
+	border-bottom: 1px solid #494949;
+	padding:1% 0 1% 2%;
+	
+	}
+#first_name:focus{
+	color:white;
+	display:block;
+	background-color:#1b5288;
+	border: none;
+	border-bottom: 1px solid #689bcc;
+	box-shadow: 0px 0px 29px 0px rgba(118, 190, 245, 0.84);
+	outline: none;
+	}
+#second_name{
+	display:block;
+	background-color:black;
+	border: none;
+	border-bottom: 1px solid #494949;
+	padding:1% 0 1% 2%;
+	}
+#second_name:focus{
+	outline: none;
+	color:white;
+	display:block;
+	background-color:#1b5288;
+	border: none;
+	border-bottom: 1px solid #689bcc;
+	box-shadow: 0px 0px 29px 0px rgba(118, 190, 245, 0.84);
+	}
+#email{
+	display:block;
+	background-color:black;
+	border: none;
+	border-bottom: 1px solid #494949;
+	padding:1% 0 1% 2%;
+	}
+#email:focus{
+	outline: none;
+	color:white;
+	display:block;
+	background-color:#1b5288;
+	border: none;
+	border-bottom: 1px solid #689bcc;
+	box-shadow: 0px 0px 29px 0px rgba(118, 190, 245, 0.84);
+	}
+#password1{
+	display:block;
+	background-color:black;
+	border: none;
+	border-bottom: 1px solid #494949;
+	padding:1% 0 1% 2%;
+	}
+#password1:focus{
+	outline: none;
+	color:white;
+	display:block;
+	background-color:#1b5288;
+	border: none;
+	border-bottom: 1px solid #689bcc;
+	box-shadow: 0px 0px 29px 0px rgba(118, 190, 245, 0.84);
+	}
+#password2{
+	display:block;
+	background-color:black;
+	border: none;
+	border-bottom: 1px solid #494949;
+	padding:1% 0 1% 2%;
+	}
+#password2:focus{
+	outline: none;
+	color:white;
+	display:block;
+	background-color:#1b5288;
+	border: none;
+	border-bottom: 1px solid #689bcc;
+	box-shadow: 0px 0px 29px 0px rgba(118, 190, 245, 0.84);
+	}
+.submit{
+	padding:1% 1% 1% 1%;
+	display:block;
+	background-image: url(../img/button.png);
+	border: 1px solid rgba(79,159,217,0.5);
+	border-radius:1px;
+	}
+.police{
+	width:60%;
+	font-size:80%;
+	text-align:center;
+	padding: 3% 0 3% 0;
+	margin: 0 0 0 20%;
+	}
+#sendme{
+	width:3%;
+	margin: 2% 0 0 0;
+	}
