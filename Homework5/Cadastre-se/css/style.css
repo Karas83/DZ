@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneue-thinextobl-webfont.eot');
+    src: url('../fonts/helveticaneue-thinextobl-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue-thinextobl-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thinextobl-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue-thinextobl-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+			}
 .clearfix:after {
 	content: "";
 	clear: both;
@@ -6,7 +16,7 @@
 body{
 	color:#cccccc;
 	width: 100%;
-	font-family:Helvetica Neue, sans-serif; 
+	font-family:"Helvetica Neue",Arial,sans-serif; 
 	background-image: url(../img/backmain.jpg);
 	background-size: 100%;
 	}
@@ -15,7 +25,7 @@ header{
 	}
 .topmenu{
 	float:right;
-	padding: 0 0 0 1%;
+	padding: 0 0 0 0;
 	}
 .topmenu li{
 	float:left;
