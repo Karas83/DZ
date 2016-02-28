@@ -37,7 +37,7 @@ html{
 	font-family:LeagueGothic;
 }
 body{
-	width:100%;
+	width:960px;
 	}
 header{
 	width:100%;
@@ -526,7 +526,7 @@ html{
 	font-family:LeagueGothic;
 }
 body{
-	width:100%;
+	width:480px;
 	}
 header{
 	width:100%;
@@ -1101,7 +1101,7 @@ html{
 	font-family:LeagueGothic;
 }
 body{
-	width:100%;
+	width:768px;
 	}
 header{
 	width:100%;
@@ -1599,7 +1599,6 @@ html{
 	font-family:LeagueGothic;
 }
 body{
-	margin-left:140px;
 	width:320px;
 	}
 header{
