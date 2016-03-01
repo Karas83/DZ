@@ -5,11 +5,14 @@
 	<title>PINGBULLER</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
+	<!--[if lte IE 8]>
+	<link href="css/ie8.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
 	<link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/1543905776/Pingbull_Twitter_bilde.jpg">
 </head>
 <body>
 	<div class="top">
-		<header class="clearfix">
+		<div class="header clearfix">
 			<div class="header__logo">
 				<h1 class="header__PINGBULL">PINGBULL</h1>
 				<h1 class="header__ER">ER</h1>
@@ -22,7 +25,7 @@
 				<li class="header__li header__li5"><a href="" target="_blank">LOREM IPSUM</a></li>
 				<li class="header__li header__li6"><a href="" target="_blank">DOLOR SIT AMET</a></li>
 			</ul>
-		</header>
+		</div>
 		<div class="slider">
 			<img class="iphone" src="img/iphone.png" alt="Ошибка сервера" title="">
 			<div class="slider__text">
@@ -50,8 +53,8 @@
 				<a class="slider__a" href=""><img class="" src="img/foneimg.png" alt="Ошибка сервера" title=""></a></li>
 		</ul>
 	</div>
-	<main>
-		<div class="main__about1">
+	<div class="main">
+		<div class="main__about1 clearfix">
 			<img class="forsprite1" src="img/forsprite.png" alt="Ошибка сервера" title="">
 			<h2 class="main__h2">ABOUT OUR COMPANY</h2>
 			<span class="main__span">
@@ -62,7 +65,7 @@
 			</span>
 			<a class="main__a" href="">READ MORE</a>
 		</div>
-		<div class="main__about2">
+		<div class="main__about2 clearfix">
 			<img class="forsprite2" src="img/forsprite.png" alt="Ошибка сервера" title="">
 			<h2 class="main__h2">ABOUT OUR COMPANY</h2>
 			<span class="main__span">
@@ -73,7 +76,7 @@
 			</span>
 			<a class="main__a" href="">READ MORE</a>
 		</div>
-		<div class="main__about3">
+		<div class="main__about3 clearfix">
 			<img class="forsprite3" src="img/forsprite.png" alt="Ошибка сервера" title="">
 			<h2 class="main__h2">ABOUT OUR COMPANY</h2>
 			<span class="main__span">
@@ -84,9 +87,9 @@
 			</span>
 			<a class="main__a2" href="">READ MORE</a>
 		</div>		
-	</main>
+	</div>
 	<div class="foraside clearfix">
-		<aside class="asideleft clearfix">
+		<div class="asideleft clearfix">
 			<img class="asideleft__foto" src="img/foto.png" alt="Ошибка сервера" title="">
 			<h2 class="asideleft__PINGBULLER">PINGBULLER</h2>
 			<h2 class="asideleft__start">STARTS HERE</h2>
@@ -99,8 +102,8 @@
 				erat consequat dignissim non eu nisl."
 			</span>
 			<img class="treg" src="img/treg.png" alt="Ошибка сервера" title="">
-		</aside>
-		<aside class="asideright clearfix">
+		</div>
+		<div class="asideright clearfix">
 			<ul class="asideright__ul clearfix">
 				<li class="asideright__li1">
 				RECENT UPDATES
@@ -122,7 +125,7 @@
 				</li>
 			</ul>
 			<a class="asideright__a" href="">READ MORE HERE</a>
-		</aside>
+		</div>
 		<ul class="aside__ul clearfix">
 			<li class="aside__li">
 				<a class="slider__a" href=""><img class="" src="img/foneimg.png" alt="Ошибка сервера" title=""></a></li>
@@ -142,7 +145,7 @@
 		<img class="foraside__logo5" src="img/logo5.png" alt="Ошибка сервера" title="">
 		<img class="foraside__logo6" src="img/logo6.png" alt="Ошибка сервера" title="">
 	</div>
-	<footer>
+	<div class="footer">
 		<div class="footer__left">
 			<h1 class="footer__PINGBULL">PIGBULL</h1>
 			<h1 class="footer__PINGBULL2">ER</h1>
@@ -179,7 +182,7 @@
 				nar bibendum in, venenatis quis
 			</span>
 		</div>
-	</footer>	
+	</div>	
 		<div class="underfooter">
 			<ul class="footer__ul clearfix">
 				<li class="footer__li footer__li1"><a class="footer__a1" href="" target="_blank">HOME</a></li>

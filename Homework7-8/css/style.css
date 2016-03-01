@@ -39,7 +39,7 @@ html{
 body{
 	width:960px;
 	}
-header{
+.header{
 	width:100%;
 	padding:6.8% 0 0 0;
 	}
@@ -91,7 +91,7 @@ header{
 	margin-right: 0;
 	}	
 .header__li6{
-	margin-left: 5.4%;
+	margin-left: 5%;
 	margin-right: 0;
 	}		
 .header__ul a{
@@ -159,9 +159,10 @@ header{
 .slider__li:hover{
 	background-image: url(../img/circl2.png)
 	}
-main{
+.main{
+	display: inline-block;
 	width:100%;
-	background-image: url(../img/backformid.png)
+	background-image:url(../img/backformid.jpg);
 	}
 .main__about1{
 	color: white;
@@ -185,7 +186,7 @@ main{
 	position:relative;
 	width:23.6%;
 	margin-top: 8.1%;
-	margin-left: 10.99%;
+	margin-left: 10%;
 	}
 .main__h2{
 	margin-left: 2%;
@@ -398,7 +399,7 @@ main{
 .foraside__logo6{
 	margin-left: 7.4%;
 	}
-footer{
+.footer{
 	background-color:#ececec;
 	}
 .footer__left{
@@ -502,7 +503,7 @@ footer{
 .footer_span4{
 	margin-bottom: 4.3%;
 	display:inline-block;
-	padding-left: 30.4%;
+	padding-left: 29%;
     font-family: OpenSans;
     font-size: 12px;
     color: white;
@@ -528,7 +529,7 @@ html{
 body{
 	width:480px;
 	}
-header{
+.header{
 	width:100%;
 	padding:8.7% 0 0 0;
 	}
@@ -718,7 +719,7 @@ header{
 .slider__li:hover{
 	background-image: url(../img/circl2.png)
 	}
-main{
+.main{
 	width:100%;
 	background-image: url(../img/backformid480.png)
 	}
@@ -966,7 +967,7 @@ main{
 .foraside__logo6{
 	margin-left: 13%;
 	}
-footer{
+.footer{
 	background-color:#ececec;
 	}
 .footer__left{
@@ -1103,7 +1104,7 @@ html{
 body{
 	width:768px;
 	}
-header{
+.header{
 	width:100%;
 	padding:8.7% 0 0 0;
 	}
@@ -1230,7 +1231,7 @@ header{
 .slider__li:hover{
 	background-image: url(../img/circl2.png)
 	}
-main{
+.main{
 	width:100%;
 	background-image: url(../img/backformid.png)
 	}
@@ -1466,7 +1467,7 @@ main{
 .foraside__logo6{
 	margin-left: 6.9%;
 	}
-footer{
+.footer{
 	background-color:#ececec;
 	}
 .footer__left{
@@ -1601,7 +1602,7 @@ html{
 body{
 	width:320px;
 	}
-header{
+.header{
 	width:100%;
 	padding:8.7% 0 0 0;
 	}
@@ -1796,7 +1797,7 @@ header{
 .slider__li:hover{
 	background-image: url(../img/circl2.png)
 	}
-main{
+.main{
 	width:100%;
 	background-image: url(../img/backformid480.png)
 	}
@@ -2052,7 +2053,7 @@ main{
 	padding-top:10%;
 	padding-left:19%;
 	}
-footer{
+.footer{
 	display:none;
 	background-color:#ececec;
 	}
