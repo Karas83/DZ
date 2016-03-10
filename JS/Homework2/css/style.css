@@ -1,0 +1,51 @@
+html{
+	background-color:grey;
+	font-family:arial;
+	}
+body{
+	margin: 2% auto;
+	width:50%;
+	background-color:white;
+	border:1px solid black;
+	padding-top: 2%;
+    padding-bottom: 4%;
+	}
+.h1{
+	font-size:18px;
+	text-align:center;
+	display: block;
+    margin-top: 2%;
+    margin-bottom: 5%;
+	}
+.form{
+	margin-left: 10%;
+    margin-bottom: 8%;
+	}
+.ulTest{
+	font-weight:600;
+	margin-left:10%;
+	}
+.liTest{
+	font-size: 15px;
+	margin-top: 1%;
+    margin-left: 4%;
+	font-weight:500;
+	}
+ul li:first-child{
+	margin-top:2%;	
+	}
+ul{
+	margin-top:2%;
+	}
+.checkBox{
+	background-color:#cfe1f5;
+	}
+.submit{
+	display:block;
+	font-size: 20px;
+    margin-top: 5%;
+    margin-left: 25%;
+    padding: 2%;
+	background-color:#cfe1f5;
+	border:2px solid black;
+	}
