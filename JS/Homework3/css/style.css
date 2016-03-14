@@ -1,0 +1,23 @@
+.body{
+	margin-left: 21%;
+	margin-top:10%;
+	}
+#timer{
+	text-align:center;
+	display:block;
+	font-size:150px;
+	width:100%;
+	}
+#start{
+	width:100%;
+	font-size:120px;
+	}
+#pause{
+	width:100%;
+	display:none;
+	font-size:120px;
+	}
+#stop{
+	width:100%;
+	font-size:120px;
+	}
