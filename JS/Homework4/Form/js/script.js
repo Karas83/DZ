@@ -7,14 +7,14 @@
   $input.hover (
 	function(){
 		var $span = $(this).siblings('.span');
-		$span.fadeTo("slow", 1);
+		$span.fadeTo(500, 1);
 	},
 	function(){
 		var $span = $(this).siblings('.span');
-		$span.fadeTo("slow", 0);
+		$span.fadeTo(500, 0);
 	}
 	);
 	$help.on ('click', function(){
-		$span.fadeTo("slow", 1);
+		$span.fadeTo(500, 1);
 	});
 });
