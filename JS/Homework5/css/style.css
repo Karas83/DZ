@@ -1,0 +1,198 @@
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: block;
+	}
+/*
+This is the visible area of you carousel.
+Set a width here to define how much items are visible.
+The width can be either fixed in px or flexible in %.
+Position must be relative!
+*/
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+	width:500px;
+	margin-left: auto;
+    margin-right: auto;
+	border: 10px solid #89BFD4;
+    border-radius: 30px;
+}
+
+/*
+This is the container of the carousel items.
+You must ensure that the position is relative or absolute and
+that the width is big enough to contain all items.
+*/
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+
+    /* Optional, required in this case since it's a <ul> element */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+	left: -318500px;
+}
+
+/*
+These are the item elements. jCarousel works best, if the items
+have a fixed width and height (but it's not required).
+*/
+.jcarousel li {
+    /* Required only for block elements like <li>'s */
+    float: right;
+}
+.jcarousel li {
+	height: 350px;
+}
+.jcarousel-prev{
+	position:absolute;
+	left: 0px;
+    top: 50%;
+}
+.jcarousel-next{
+	position:absolute;
+	left:95%;
+	top: 50%;
+}
+.select{
+    margin-left: 44%;
+}
+.niceCheck {
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	cursor: pointer;
+	background: url(../img/checkbox.png);
+	overflow: hidden;
+}
+.niceChecked {
+	background-position: 0 -17px;
+}
+.niceCheck input {
+	margin-left: -100px; /* можно задать побольше чтобы наверняка скрыть поле */
+}
+.niceCheckDisabled {
+	background-image: url(../img/checkbox-disabled.png);
+}
+.form{
+	display:inline-block;
+	margin-left: 49%;
+}
+#ch1{
+	display:none;
+}
+#ch2{
+	display:none;
+}
+#ch3{
+	display:none;
+}
+.form2{
+	display:inline-block;
+	margin-left: 47.9%;
+}
+.onjs{
+	margin-left:48.5%;
+}
+.oncss{
+	margin-left:48.5%;
+}
+.input1{
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+}
+.label1 {
+	cursor: pointer;
+}
+.label1:after {
+	content: " ";
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url(../img/checkbox.png);
+	position: relative;
+	top: 3px;
+	margin-left: 15px;
+}
+.input1:checked + .label1:after {
+background-position: 0 -17px;
+}
+.label1:hover:after {
+background-position: 0 -34px;
+}
+.input1:checked + .label1:hover:after {
+background-position: 0 -51px;
+}
+.label3:after {
+	content: " ";
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url(../img/checkbox-disabled.png);
+	position: relative;
+	top: 3px;
+	margin-left: 15px;
+}
+.lilevel1{
+	float:left;
+	padding: 10px;
+    background-color: #FF6464;
+    text-align: center;
+    width: 100px;
+    color: white;
+}
+.lilevel12{
+	padding:10px 0 10px 0;
+}
+.lilevel2{
+	padding: 10px 0 10px 0;
+    background-color: #E14B4B;
+    text-align: center;
+    width: 100px;
+    color: white;
+	border-bottom:1px solid black;
+}
+.lilevel3{
+	padding: 10px 0 10px 0;
+    background-color: #E14B4B;
+    text-align: center;
+    width: 100px;
+    color: white;
+	border-bottom:1px solid black;
+}
+.lilevel4{
+	padding: 10px 0 10px 0;
+    background-color: #E14B4B;
+    text-align: center;
+    width: 100px;
+    color: white;
+	border-bottom:1px solid black;
+}
+.mainul{
+	position:relative;
+}
+.ullvl2{
+	clip: rect(0px, 300px, 0px, 0px);
+	position:absolute;
+}
+.ullvl3{
+	clip: rect(0px, 200px, 0px, 0px);
+    position: absolute;
+    left: 100px;
+    top: 37px;
+}
+.ullvl4{
+	clip: rect(0px, 100px, 0px, 0px);
+    top: 37px;
+    position: absolute;
+    left: 100px;
+	
+}
+.li:hover{
+	color:black;
+}
+.mainul{
+	margin-left: 37%;
+}

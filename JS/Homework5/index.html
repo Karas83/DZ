@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Page</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" media="all" href="css/jquery.selectbox.css" />
+	<script src="https://code.jquery.com/jquery-1.11.3.js"   integrity="sha256-IGWuzKD7mwVnNY01LtXxq3L84Tm/RJtNCYBfXZw3Je0="   crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+	<script type="text/javascript" src="js/jquery.selectbox-0.6.1.js"></script>
+	<script type="text/javascript" src="js/chek.js"></script>
+	<script src="js/script.js"></script>
+	
+
+</script>
+</head>
+<body>
+	<div>
+		<div class="jcarousel">
+			<ul class="clearfix">
+				<li><img src="img/1.jpg"></li>
+				<li><img src="img/2.jpg"></li>
+				<li><img src="img/3.jpg"></li>
+			</ul>
+			<img class="jcarousel-prev" src="img/left-arrow.png">
+			<img class="jcarousel-next" src="img/right-arrow.png">
+		</div>
+	</div>
+	<div class="select clearfix">
+						<select id="default-usage-select">
+							<option value="--">Оцените красоту как считаете нужным</option>
+							<option value="01">Прекрасно</option>
+							<option value="02">Восхитительно</option>
+							<option value="03">Великолепно</option>
+							<option value="04">Безумно красиво</option>
+							<option value="05">Невероятно</option>
+							<option value="06">Гениально</option>
+							<option value="07">Нет слов</option>
+							<option value="08">10/10</option>
+							<option value="09">10/10</option>
+							<option value="11">10/10</option>
+							<option value="12">10/10</option>
+							<option value="13">10/10</option>
+							<option value="14">10/10</option>
+							<option value="15">10/10</option>
+							<option value="16">10/10</option>
+							<option value="17">10/10</option>
+							<option value="18">10/10</option>
+							<option value="19">10/10</option>
+							<option value="20">10/10</option>		
+						</select>
+	</div>
+	<div class="onjs">on js</div>
+	<form class="form" action="#">
+		<div><input type="checkbox" class="niceCheck" id="ch1" tabindex="1" /> </div>
+		<div><input type="checkbox" class="niceCheck" checked="checked" id="ch2" tabindex="2" value="2" /></div>
+		<div><input type="checkbox" class="niceCheck" id="ch3" checked="checked" disabled="disabled" /></div>
+	</form>
+	<div class="oncss">on css</div>
+	<form class="form2" action="#">
+		<div>
+			<input class="input1" type="checkbox" id="test-check1">
+			<label class="label1" for="test-check1"></label>
+		</div>	
+		<div>	
+			<input class="input1" type="checkbox" checked="checked" id="test-check2">
+			<label class="label1" for="test-check2"></label>
+		</div>	
+		<div>	
+			<input class="input1" type="checkbox" checked="checked" disabled="disabled" id="test-check3">
+			<label class="label1 label3" for="test-check3"></label>
+		</div>	
+	</form>
+	<ul class="clearfix mainul">
+				<li class="lilevel1 li"><span>Меню 1</span></li>
+				<li class="lilevel1 lilevel12 li"><span>Меню 2</span>
+					<ul class="clearfix ullvl2">
+						<li class="lilevel2 li"><span>Меню 2.1</span></li>
+						<li class="lilevel2 li lilvl1 lilevel22"><span>Меню 2.2</span>
+							<ul class="clearfix ullvl3">
+								<li class="lilevel3 li"><span>Меню 2.2.1</span></li>
+								<li class="lilevel3 li lilevel32"><span>Меню 2.2.2</span>
+									<ul class="clearfix ullvl4">
+										<li class="lilevel4 li"><span>Меню 2.2.2.1</span></li>
+										<li class="lilevel4 li"><span>Меню 2.2.2.2</span></li>
+										<li class="lilevel4 li"><span>Меню 2.2.2.3</span></li>
+									</ul>
+								</li>
+								<li class="lilevel3 li"><span>Меню 2.2.3</span></li>
+							</ul>
+						</li>
+						<li class="lilevel2 li"><span>Меню 2.3</span></li>
+					</ul>
+				</li>
+				<li class="lilevel1 li"><span>Меню 3</span></li>
+	</ul>
+	<script src="js/drop.js"></script>
+</body>
+</html>
+
+
