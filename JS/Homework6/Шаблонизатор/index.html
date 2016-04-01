@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Prof</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-1.11.3.js"   integrity="sha256-IGWuzKD7mwVnNY01LtXxq3L84Tm/RJtNCYBfXZw3Je0="   crossorigin="anonymous"></script>
+	<script src="js/tmpl.js"></script>
+	<script src="js/script.js"></script>
+	
+
+</script>
+</head>
+<body>
+<script type="text/template" id="prof">
+	<div>
+		<h1><%= имя %></h1>
+		<img src="<%= imgPath %>" alt="Ошибка сервера" title="Красивое пальто)">
+		<%= работа %>
+		<p class="p2">
+		Хочу учить фронтенд,потому что:
+		<ul>
+			<li><%= причина1 %></li>
+			<li><%= причина2 %></li>
+			<li><%= причина3 %></li>
+		</ul>
+		<p class="p2">	Мой контактный телефон</p>
+		<%= номерТел %>
+		<p>&nbsp;Мой профиль вконтакте</p>
+		&nbsp;<a href="<%= ссылкаНаВк %>" target="_blank"> vk.com</a>
+		<p class="p2">Мой фидбек:</p>
+		<%= фидбек %>
+	</div>
+
+</script>
+
+</body>
+</html>
+
+
