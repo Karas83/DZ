@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-1.11.3.js"   integrity="sha256-IGWuzKD7mwVnNY01LtXxq3L84Tm/RJtNCYBfXZw3Je0="   crossorigin="anonymous"></script>
+	<script src="js/forstorage.js"></script>
+	<script src="js/tmpl.js"></script>
+	<script src="js/shab.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+<script type="text/template" id="test">
+<h1 class="h1"><%= title %><h1>
+	<form>
+		<ul class="ulTest"><%= qw1 %>
+			<li class="liTest">
+				<input class="checkBox qw1" type="checkbox" id="checkbox1">
+				<label class="label" for="checkbox1"><%= qw11 %></label></li>
+			<li class="liTest">
+				<input class="checkBox qw1" type="checkbox" id="checkbox2">
+				<label class="label" for="checkbox2"><%= qw12 %></label>
+			</li><li class="liTest">
+				<input class="checkBox qw1" type="checkbox" id="checkbox3">
+				<label class="label" for="checkbox3"><%= qw13 %></label>
+			</li>
+		</ul>
+		<ul class="ulTest"><%= qw2 %>
+			<li class="liTest">
+				<input class="checkBox qw2" type="checkbox" id="checkbox21">
+				<label class="label" for="checkbox21"><%= qw21 %></label>
+			</li>
+			<li class="liTest">
+				<input class="checkBox qw2" type="checkbox" id="checkbox22">
+				<label class="label" for="checkbox22"><%= qw22 %></label>
+			</li>
+			<li class="liTest">
+				<input class="checkBox qw2" type="checkbox" id="checkbox23">
+				<label class="label" for="checkbox23"><%= qw23 %></label>
+			</li>
+		</ul>
+		<ul class="ulTest"><%= qw3 %>
+			<li class="liTest">
+				<input class="checkBox" type="checkbox" id="checkbox31">
+				<label class="label" for="checkbox31"><%= qw31 %></label>
+			</li>
+			<li class="liTest">
+				<input class="checkBox" type="checkbox" id="checkbox32">
+				<label class="label" for="checkbox32"><%= qw32 %></label>
+			</li>
+				<li class="liTest"><input class="checkBox" type="checkbox" id="checkbox33">
+				<label class="label" for="checkbox33"><%= qw33 %></label>
+			</li>
+		</ul>
+		<input class="submit" type="submit" value="Проверить мои результаты" id="go">
+	</form>
+</script>
+<div id="modal_form"> 
+      <span id="modal_close">Вернутся к тесту и пройти заново!</span>
+      <p class="result"></p>
+	  <p class="result2"></p>
+	  <p class="result3"></p>
+</div>
+<div id="overlay"></div>
+</body>
+</html>
+
+
