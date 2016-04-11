@@ -13,47 +13,18 @@
 </head>
 <body>
 <script type="text/template" id="test">
-<h1 class="h1"><%= title %><h1>
+<h1 class="h1">Тест по информатике</h1>
 	<form>
-		<ul class="ulTest"><%= qw1 %>
+	  <% for (var i = 0; i<data.length; i++) { %>
+		<ul class="ulTest"><%= data[i].qw %>
+		  <% for (var j = 0; j<koll; j++) { %>
 			<li class="liTest">
-				<input class="checkBox qw1" type="checkbox" id="checkbox1">
-				<label class="label" for="checkbox1"><%= qw11 %></label></li>
-			<li class="liTest">
-				<input class="checkBox qw1" type="checkbox" id="checkbox2">
-				<label class="label" for="checkbox2"><%= qw12 %></label>
-			</li><li class="liTest">
-				<input class="checkBox qw1" type="checkbox" id="checkbox3">
-				<label class="label" for="checkbox3"><%= qw13 %></label>
+				<input class="checkBox <%= [i] %>" type="checkbox" id="<%= [i]+[j] %>">
+				<label class="label" for="<%= [i]+[j] %>"><%= data[i].qwl[j].qw %></label></li>
 			</li>
+		  <% }; %>	
 		</ul>
-		<ul class="ulTest"><%= qw2 %>
-			<li class="liTest">
-				<input class="checkBox qw2" type="checkbox" id="checkbox21">
-				<label class="label" for="checkbox21"><%= qw21 %></label>
-			</li>
-			<li class="liTest">
-				<input class="checkBox qw2" type="checkbox" id="checkbox22">
-				<label class="label" for="checkbox22"><%= qw22 %></label>
-			</li>
-			<li class="liTest">
-				<input class="checkBox qw2" type="checkbox" id="checkbox23">
-				<label class="label" for="checkbox23"><%= qw23 %></label>
-			</li>
-		</ul>
-		<ul class="ulTest"><%= qw3 %>
-			<li class="liTest">
-				<input class="checkBox" type="checkbox" id="checkbox31">
-				<label class="label" for="checkbox31"><%= qw31 %></label>
-			</li>
-			<li class="liTest">
-				<input class="checkBox" type="checkbox" id="checkbox32">
-				<label class="label" for="checkbox32"><%= qw32 %></label>
-			</li>
-				<li class="liTest"><input class="checkBox" type="checkbox" id="checkbox33">
-				<label class="label" for="checkbox33"><%= qw33 %></label>
-			</li>
-		</ul>
+	  <% }; %>
 		<input class="submit" type="submit" value="Проверить мои результаты" id="go">
 	</form>
 </script>
