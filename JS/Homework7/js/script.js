@@ -2,43 +2,21 @@
 
 $(function() {
 	var a = 0;
-	$('.0').click(function () {
-		if (this.checked) {
-			$('.0').attr('checked',false);
-			this.checked=true;
-		};
-	});
-	$('.1').click(function () {
-		if (this.checked) {
-			$('.1').attr('checked',false);
-			this.checked=true;
-		};
-	});
 	$('#go').click( function(event){
-	if($("#01").prop("checked")) {
+	for (var i=0; i<data.length; i++){
+		
+	if($(".y"+[i]).prop("checked")) {
 	a++;
-	}; 	
-	if($("#10").prop("checked")) {
-	a++;
-	};
-	if($("#20").prop("checked")) {
-	a++;
-	};
-	if($("#21").prop("checked")) {
-	a++;
-	};	
-	if($("#20").prop("checked") && $("#21").prop("checked") && $("#22").prop("checked")) {
-	a = a-2;
-	};
-	if (a === 4) {
+	}; };
+	if (a === data.length) {
 		$('.result').text('Поздравляем!');
 		$('.result2').text('Вы успешно прошли тест!');
-		$('.result3').text('Ваш результат '+a+'/4 балов');
+		$('.result3').text('Ваш результат '+a+'/'+data.length+' балов');
 	}
 	else{
 		$('.result').text('Сожалеем...');
 		$('.result2').text('Вы не прошли тест...');
-		$('.result3').text('Ваш результат '+a+'/4 балов');
+		$('.result3').text('Ваш результат '+a+'/'+data.length+' балов');
 	};
 		
 	event.preventDefault();

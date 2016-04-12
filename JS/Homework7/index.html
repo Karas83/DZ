@@ -19,7 +19,7 @@
 		<ul class="ulTest"><%= data[i].qw %>
 		  <% for (var j = 0; j<koll; j++) { %>
 			<li class="liTest">
-				<input class="checkBox <%= [i] %>" type="checkbox" id="<%= [i]+[j] %>">
+				<input class="checkBox <%= data[i].qwl[j].vern %><%= [i] %>"  name="<%= [i] %>" type="radio" id="<%= [i]+[j] %>">
 				<label class="label" for="<%= [i]+[j] %>"><%= data[i].qwl[j].qw %></label></li>
 			</li>
 		  <% }; %>	
