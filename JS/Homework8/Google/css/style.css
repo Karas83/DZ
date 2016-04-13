@@ -1,0 +1,33 @@
+.main{
+	margin-left: 30%;
+	margin-bottom:50px;
+}
+#q{
+	width:500px;
+	font-size: 20px;
+	padding:6px;
+}
+#search{
+	font-size: 20px;
+	display: block;
+    margin-left: 172px;
+    margin-top: 10px;
+}
+img{
+	margin-left: 80px;
+}
+li{
+	margin-left: 50px;
+    width: 700px;
+}
+a{
+	font-size: 25px;
+}
+.url{
+	margin-top: 2px;
+    margin-bottom: 2px;
+}
+.content{
+	margin-top: 2px;
+	margin-bottom: 30px;
+}
