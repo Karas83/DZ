@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+	<link rel="stylesheet" href="css/style.min.css">
+	<script src="https://code.jquery.com/jquery-1.11.3.js"   integrity="sha256-IGWuzKD7mwVnNY01LtXxq3L84Tm/RJtNCYBfXZw3Je0="   crossorigin="anonymous"></script>
+	<script src="js/dest/script.main.min.js"></script>
+</head>
+<body>
+<script type="text/template" id="test">
+<h1 class="h1">Тест по информатике</h1>
+	<form>
+	  <% for (var i = 0; i<data.length; i++) { %>
+		<ul class="ulTest"><%= data[i].qw %>
+		  <% for (var j = 0; j<data[i].qwl.length; j++) { %>
+			<li class="liTest">
+				<input class="checkBox <%= data[i].qwl[j].vern %><%= [i] %>"  name="<%= [i] %>" type="radio" id="<%= [i]+[j] %>">
+				<label class="label" for="<%= [i]+[j] %>"><%= data[i].qwl[j].qw %></label></li>
+			</li>
+		  <% }; %>	
+		</ul>
+	  <% }; %>
+		<input class="submit" type="submit" value="Проверить мои результаты" id="go">
+	</form>
+</script>
+<div id="modal_form"> 
+      <span id="modal_close">Вернутся к тесту и пройти заново!</span>
+      <p class="result"></p>
+	  <p class="result2"></p>
+	  <p class="result3"></p>
+</div>
+<div id="overlay"></div>
+</body>
+</html>
+
+
