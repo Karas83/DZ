@@ -1,3 +1,8 @@
+$m_w:1160px; 
+$border:1px solid black;
+
+
+
 .clearfix:after {
 	content: "";
 	clear: both;
@@ -11,7 +16,7 @@ body{
 	margin-left:380px;
 		header{
 			margin-top: 25px;
-			width:1160px;
+			width:$m_w;
 		}
 		#search{
 			color:#5d5f61;
@@ -19,7 +24,7 @@ body{
 			height: 38px;
 			display:inline;
 			background-color:#35383c;
-			border:1px solid black;
+			border:$border;
 			position:absolute;
 			top: 6px;
 			left: 909px;
@@ -34,7 +39,7 @@ body{
 		}
 		.menu{
 			background-color:#2a2d32;
-			width:1160px;
+			width:$m_w;
 			position:relative;
 			margin-top: 35px;
 		}
@@ -95,8 +100,8 @@ body{
 			background-color:#248cec;
 		}
 		li{
-			border-left:1px solid black;
-			border-right:1px solid black;
+			border-left:$border;
+			border-right:$border;
 			text-align:center;
 			width:115px;
 			height:56px;
@@ -114,7 +119,7 @@ body{
 	margin-top: 40px;
     position: relative;
     overflow: hidden;
-	width:1160px;
+	width:$m_w;
 	margin-left: 0;
     margin-right: 0;
 		ul {
@@ -177,7 +182,7 @@ body{
 .menu_div{
 	padding-left:380px;
 	padding-right:380px;
-	width:1160px;
+	width:$m_w;
 	height:500px;
 	background-color:#2a2d32;
 		h1{
@@ -224,7 +229,7 @@ body{
 .main_div{
 	padding-left:380px;
 	padding-right:380px;
-	width:1160px;
+	width:$m_w;
 	background-color:#f7f7f7;
 		.main_img1{
 			position:absolute;
@@ -310,7 +315,7 @@ body{
 .spon{
 	margin-left:380px;
 	margin-top: 50px;
-	width:1160px;
+	width:$m_w;
 	margin-bottom: 90px;
 }
 
@@ -318,7 +323,7 @@ footer{
 	padding-left:380px;
 	padding-right:380px;
 	background-color:#2a2d32;
-	width:1160px;
+	width:$m_w;
 		.block{
 		display:inline-block;
 			ul{
