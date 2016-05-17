@@ -11,11 +11,11 @@ if (a == 0 && b == 0){
 }},
 factor: function (a){
 	var arr = [];
-	
-	if(a > 99999999999999999999){
-			arr.push('Введите число от 1 до 99999999999999999999');
+	if (isNaN(a)){return NaN;
+	}else if(a > 99999999999999999999){
+			return('Введите число от 1 до 99999999999999999999');
 	}else if(a%1 != 0 || a <= 1  ){
-			arr.push('Неверный ввод');
+			return null;
 	}else{
 	for (var i = 2; i < a+1;i++) {
 		if (a/i == 0){
@@ -26,10 +26,12 @@ factor: function (a){
 		i=i-1;
 		};
 		
-	};};
-	return(arr);
+	};return(arr);};
+	
 }
 };
 //console.log(metods.GCD(-9,2));
-//console.log(metods.factor(1.52));
+//console.log(metods.factor('8'));
+try{
 module.exports = metods;
+} catch(e){}
