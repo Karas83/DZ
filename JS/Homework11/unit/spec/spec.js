@@ -1,89 +1,82 @@
-var metods = require('../js/script.js');
 
-
-describe("gcd",function(){
-	it("it gcd1",function(){
+describe("Тесты для НОД",function(){
+	it("Любые натуральные числа",function(){
 		var result;
 		result = metods.GCD(8,2);
 		expect(result).toBe(2);
 	});
-	it("it gcd2",function(){
+	it("Два нуля",function(){
 		var result;
 		result = metods.GCD(0,0);
-		expect(result).toBeNaN;
+		expect(result).toBeNaN();
 	});
-	it("it gcd3",function(){
+	it("Любое дробное число",function(){
 		var result;
 		result = metods.GCD(1.584,2);
-		expect(result).toBeUndefined;
+		expect(result).toBeUndefined();
 	});
-	it("it gcd4",function(){
+	it("Выражение из натуральных чисел,которое в результате дробное число",function(){
 		var result;
 		result = metods.GCD(2*8*4/5+6-9,2);
-		expect(result).toBeUndefined;
+		expect(result).toBeUndefined();
 	});
-		it("it gcd5",function(){
+		it("Отрицательные числа",function(){
 		var result;
 		result = metods.GCD(-9,2);
 		expect(result).toBe(1);
 	});
-		it("it gcd6",function(){
+		it("Ведден только один аргумент",function(){
 		var result;
 		result = metods.GCD(1);
-		expect(result).toBeUndefined;
+		expect(result).toBeUndefined();
 	});
-		it("it gcd7",function(){
-		var result;
-		result = metods.GCD(1);
-		expect(result).toBeUndefined;
-	});
-		it("it gcd7",function(){
+		it("Введена строка",function(){
 		var result;
 		result = metods.GCD('asdkhiasdu');
-		expect(result).toBeUndefined;
+		expect(result).toBeUndefined();
 	});
-	it("it gcd7",function(){
+	it("Введена строка преобразованная в число",function(){
 		var result;
 		result = metods.GCD('1','1');
-		expect(result).toBeUndefined;
+		expect(result).toBe(1);
+	});
+	it("Пустая строка",function(){
+		var result;
+		result = metods.GCD('','');
+		expect(result).toBeNaN();
 	});
 });
 
-describe("factor",function(){
-	it("it factor1",function(){
+describe("Тесты для factor",function(){
+	it("Выражение",function(){
 		var result;
 		result = metods.factor(2*58);
 		expect(result).toEqual([2,2,29]);
 	});
-	it("it factor2",function(){
+	it("Верхний предел числа в виде выражения",function(){
 		var result;
 		result = metods.factor(2*8+6-89*5*888*555+662548+9898*545648548468548654655851*899655+65425545);
-		expect(result).toEqual('Введите число от 1 до 99999999999999999999');
+		expect(result).toEqual('Введите число от 1 до 999999999999999');
 	});
-	it("it factor3",function(){
+	it("Введена строка",function(){
 		var result;
 		result = metods.factor('asdlskad');
-		expect(result).toBeNull;
+		expect(result).toBeNaN();
 	});
-	it("it factor4",function(){
+	it("Введена строка с числом и буквами",function(){
 		var result;
 		result = metods.factor('8fvxvxc');
-		expect(result).toBeNaN;
+		expect(result).toBeNaN();
 	});
-	it("it factor5",function(){
+	it("Верхний предел числа",function(){
 		var result;
 		result = metods.factor(842858852255263632574478585);
-		expect(result).toEqual('Введите число от 1 до 99999999999999999999');
+		expect(result).toEqual('Введите число от 1 до 999999999999999');
 	});
-	it("it factor6",function(){
+	it("Дробное число",function(){
 		var result;
 		result = metods.factor(1.265);
-		expect(result).toBeNull;
-	});
-	it("it factor6",function(){
-		var result;
-		result = metods.factor('8asdasd');
-		expect(result).toBeNull;
+		expect(result).toBeNull();
 	});
 });
 

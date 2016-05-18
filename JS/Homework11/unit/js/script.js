@@ -12,8 +12,8 @@ if (a == 0 && b == 0){
 factor: function (a){
 	var arr = [];
 	if (isNaN(a)){return NaN;
-	}else if(a > 99999999999999999999){
-			return('Введите число от 1 до 99999999999999999999');
+	}else if(a > 999999999999999){
+			return('Введите число от 1 до 999999999999999');
 	}else if(a%1 != 0 || a <= 1  ){
 			return null;
 	}else{
